@@ -3,6 +3,6 @@ node {
 	    checkout scm
 	}
 	stage('build') {
-        mvn clean install 
+        /home/edureka/maven/bin/mvn clean install 
 	}
 }
