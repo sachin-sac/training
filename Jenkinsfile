@@ -1,12 +1,3 @@
-<<<<<<< HEAD
-node {
-	stage('preparation') {
-	    checkout scm
-	}
-	stage('build') {
-        /home/edureka/maven/bin/mvn clean install 
-	}
-=======
 pipeline {
     agent any
     stages {
@@ -21,5 +12,4 @@ pipeline {
             }
         }
     }
->>>>>>> 5dc877b01ece554b5ed33fb5762c3d068bedf818
-}
+
